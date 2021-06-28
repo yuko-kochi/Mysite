@@ -165,11 +165,9 @@ header {
   display: flex;
 }
 
-.left-content {
-  width: 512px;
-}
+.left-content,
 .right-content {
-  width: 512px;
+  width: 50%;
 }
 
 .profile-img {
@@ -189,4 +187,39 @@ header {
 }
 .profile-text {
   font-size: 16px;
+}
+
+.contact-group {
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px 0 90px 0;
+  display: flex;
+}
+
+.contact-title {
+  font-size: 20px;
+  margin: 20px 0 5px 0;
+}
+.contact-title:first-child {
+  margin-top: 0;
+}
+.contact-text {
+  font-size: 16px;
+  text-decoration: underline;
+}
+.left-content-content {
+  width: 130px;
+  margin: 0 auto;
+}
+.right-content-content {
+  width: 200px;
+  margin: 0 auto;
+}
+.right-content-content .fab {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.right-content-content .fab:last-child {
+  margin-right: 0;
 }
